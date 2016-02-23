@@ -1,25 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
+    android:id="@+id/scrollView"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context="com.example.android.myappportfolio.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="My Nanodegree Apps!"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="16dp"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:textColor="#000000"
-        android:textAllCaps="true"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        
-        />
-</LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="My Nanodegree Apps!"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:background="@android:color/black"
+            android:text="spotify Streamer"
+            android:onClick="SpotifyStreamer"
+            android:textColor="@android:color/white"
+            />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:background="@android:color/black"
+            android:text="Scores App"
+            android:onClick="ScoresApp"
+            android:textColor="@android:color/white"
+            />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:background="@android:color/black"
+            android:text="Library App"
+            android:onClick="libraryApp"
+            android:textColor="@android:color/white"
+            />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:background="@android:color/black"
+            android:text="Build it bigger"
+            android:onClick="buildItBigger"
+            android:textColor="@android:color/white"
+            />
+
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:background="@android:color/black"
+            android:text="XYZ Reader"
+            android:onClick="xyzReader"
+            android:textColor="@android:color/white"
+            />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:background="@android:color/holo_red_dark"
+            android:text="Capstone: My own App"
+            android:onClick="myOwnApp"
+            android:textColor="@android:color/white"
+            />
+
+    </LinearLayout>
+</ScrollView>
